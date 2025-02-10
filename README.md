@@ -75,6 +75,9 @@ Each pixel's neighboring pixels are communicated between processes using MPI fun
 3. **Input Image**:
    Ensure that `image.pgm` is present in the same directory as the executable.
 
+   ![](./images/input.jpg)  
+
+
 ## Output
 The output is a reconstructed image written to a file named `output_xxx.pgm`, where `xxx` is the number of iterations.
 
@@ -88,3 +91,4 @@ You can visualize the output using any PGM viewer or with the `display` command 
 display output_1000.pgm
 ```
 
+   ![](./images/output.jpg)  
